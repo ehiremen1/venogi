@@ -47,3 +47,7 @@ function ok(){
   }
 
 } 
+function to(){
+  var x = document.getElementById("mea")
+  document.getElementById("demo").innerHTML=x.value
+}
